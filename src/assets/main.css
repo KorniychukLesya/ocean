@@ -1,0 +1,14 @@
+@import './base.css';
+ 
+
+#app {
+  max-width: 420px;
+  margin: 0 auto;
+  height: 100vh;
+
+}
+.pade {
+  background-color: #F1F3F7;
+  padding: 20px 27px;
+  height: 100%;
+}

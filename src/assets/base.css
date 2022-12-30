@@ -1,0 +1,46 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --vt-c-blue: #000DFF;
+  --vt-c-grey: #262626;
+
+}
+
+
+:root {  
+  --color-text-blue: var(--vt-c-blue);
+  --color-text-grey: var(--vt-c-grey);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  position: relative;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'TT Hoves';
+  font-weight: 400;
+  font-style: normal;
+ 
+  src: local("TT Hoves"), url("./fonts/TTHoves-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'TT Hoves';
+  font-weight: 500;
+  font-style: normal;
+ 
+  src: local("TT Hoves"), url("./fonts/TTHoves-Medium.woff2") format("woff2");
+}
+
+
+body {
+  min-height: 100vh;
+  color: var(--color-text-grey);
+  font-family: 'TT Hoves';
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
